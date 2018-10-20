@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.API", "PaymentService.API\PaymentService.API.csproj", "{72E5731B-A986-4269-82D7-B908A47912D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - API", "2 - API", "{16DA8210-9094-4741-80A0-C561A554A64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web", "1 - Web", "{3FB0E30F-BD5E-4C92-BFC0-74D1A9B80F56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{2FC33F24-048D-4EE5-B652-51294ABD2638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{E0FF01B4-038D-48C6-9341-FE12639C858A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{8476014B-F0FE-47B5-94C2-0C9B148B35EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Application", "PaymentService.Application\PaymentService.Application.csproj", "{3E93932E-8D2A-4E73-ADD8-AD731D02AC3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Domain", "PaymentService.Domain\PaymentService.Domain.csproj", "{A2675756-B2DC-4675-B6AC-8005FF9B89E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Infrastructure", "PaymentService.Infrastructure\PaymentService.Infrastructure.csproj", "{214C740C-40B9-417B-9ADB-F8C71771CF13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{C912FD53-C835-43F4-BD59-6C651F411968}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Tests", "PaymentService.Tests\PaymentService.Tests.csproj", "{F1C1397B-00A4-4FF3-93EA-26E1F4BCDFFA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PaymentService.Web", "PaymentService.Web\", "{73574B48-5761-47CC-999A-97E40C2637F8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53183"
+		Debug.AspNetCompiler.PhysicalPath = "PaymentService.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53183\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53183"
+		Release.AspNetCompiler.PhysicalPath = "PaymentService.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53183\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53183"
+		SlnRelativePath = "PaymentService.Web\"
+		StartServerOnDebug = "false"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E5731B-A986-4269-82D7-B908A47912D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E5731B-A986-4269-82D7-B908A47912D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E5731B-A986-4269-82D7-B908A47912D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E5731B-A986-4269-82D7-B908A47912D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E93932E-8D2A-4E73-ADD8-AD731D02AC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E93932E-8D2A-4E73-ADD8-AD731D02AC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E93932E-8D2A-4E73-ADD8-AD731D02AC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E93932E-8D2A-4E73-ADD8-AD731D02AC3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2675756-B2DC-4675-B6AC-8005FF9B89E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2675756-B2DC-4675-B6AC-8005FF9B89E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2675756-B2DC-4675-B6AC-8005FF9B89E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2675756-B2DC-4675-B6AC-8005FF9B89E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214C740C-40B9-417B-9ADB-F8C71771CF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214C740C-40B9-417B-9ADB-F8C71771CF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214C740C-40B9-417B-9ADB-F8C71771CF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214C740C-40B9-417B-9ADB-F8C71771CF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C1397B-00A4-4FF3-93EA-26E1F4BCDFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C1397B-00A4-4FF3-93EA-26E1F4BCDFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C1397B-00A4-4FF3-93EA-26E1F4BCDFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C1397B-00A4-4FF3-93EA-26E1F4BCDFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73574B48-5761-47CC-999A-97E40C2637F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73574B48-5761-47CC-999A-97E40C2637F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73574B48-5761-47CC-999A-97E40C2637F8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{73574B48-5761-47CC-999A-97E40C2637F8}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72E5731B-A986-4269-82D7-B908A47912D7} = {16DA8210-9094-4741-80A0-C561A554A64B}
+		{3E93932E-8D2A-4E73-ADD8-AD731D02AC3B} = {2FC33F24-048D-4EE5-B652-51294ABD2638}
+		{A2675756-B2DC-4675-B6AC-8005FF9B89E2} = {E0FF01B4-038D-48C6-9341-FE12639C858A}
+		{214C740C-40B9-417B-9ADB-F8C71771CF13} = {8476014B-F0FE-47B5-94C2-0C9B148B35EB}
+		{F1C1397B-00A4-4FF3-93EA-26E1F4BCDFFA} = {C912FD53-C835-43F4-BD59-6C651F411968}
+		{73574B48-5761-47CC-999A-97E40C2637F8} = {3FB0E30F-BD5E-4C92-BFC0-74D1A9B80F56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A09B7EF7-6489-4E14-AACB-C8CDF618F0ED}
+	EndGlobalSection
+EndGlobal
