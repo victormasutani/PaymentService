@@ -36,7 +36,6 @@ yarn install
 Change API hosting port if necessary (default port running from VSCode is 44341)
 ```sh
 cd PaymentService\PaymentService.Web\src\services\payment\payment.service.js
-yarn install
 ```
 
 Run API project
